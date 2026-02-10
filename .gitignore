@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.log
+.DS_Store
+Be/node_modules/
+Fe/node_modules/
+Be/.env
+Fe/.env
+Fe/build/
+
