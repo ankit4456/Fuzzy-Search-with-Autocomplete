@@ -1,7 +1,6 @@
 
 import axios from 'axios';
 
-// Backend base URL
 const API_BASE_URL =
   process.env.REACT_APP_API_URL ||
   'https://be-production-094a.up.railway.app/api';
@@ -13,7 +12,6 @@ const api = axios.create({
   },
 });
 
-// Search items
 export const searchItems = async (query) => {
   try {
     const response = await api.get('/search', {
